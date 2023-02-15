@@ -7,7 +7,7 @@ API's
 			Request Body
 			 {
     				"firstName": "Megha S",
-   				  "lastName": "Rampalli",
+   				"lastName": "Rampalli",
     				"phone": "3435345345",
     				"adderss": "UK"
   			 }
@@ -15,9 +15,9 @@ API's
 	PUT    - http://localhost:8080/person
 			Request Body
 			 {
-				    "person_id": "e1162205-a870-4c9c-9c3a-a26747c82da3",
+				"person_id": "e1162205-a870-4c9c-9c3a-a26747c82da3",
     				"firstName": "Megha S",
-   				  "lastName": "Rampalli",
+   				"lastName": "Rampalli",
     				"phone": "3435345345",
     				"adderss": "UK"
   			 }
@@ -33,7 +33,7 @@ API's
 	Authorization for browser
 	base64 encode for Admin:Admin -> QWRtaW46QWRtaW4=
 ------------------------------------------------------------------------------------------------
-	User can perform only perform Read operation.
+	User can only perform Read operation.
 	Basic Authentication
 
 	Username: User
